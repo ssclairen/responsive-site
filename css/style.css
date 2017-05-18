@@ -3,7 +3,8 @@
 /* Base
 ------------------------------------------------------------*/
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  background-color: #cccc33; }
 
 body {
   color: #4c4c4c;

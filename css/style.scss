@@ -12,7 +12,10 @@ $lineColor: #666633;
 
 /* Base
 ------------------------------------------------------------*/
-html{ font-size: 62.5%; }
+html{ 
+  font-size: 62.5%; 
+  background-color:$subColor;
+}
 
 body{
   color: $fontColor;
