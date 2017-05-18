@@ -86,11 +86,11 @@ footer {
     color: #4c4c4c;
     background-color: #FFF;
     border: 1px solid #666633;
-    -moz-border-radius: 4%;
-    -webkit-border-radius: 4%;
-    border-radius: 4%; }
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   header #header_title {
     background-image: url("../images/header-photo.png");
     height: 500px;

@@ -105,14 +105,14 @@ footer {
       color: $fontColor;
       background-color: #FFF;
       border:1px solid $lineColor;
-      @include border-radius(4%);
+      @include border-radius(10px);
 
   }
 }
 
 // for PC------------------------------------------------------
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   // Header
   header{
     #header_title {
