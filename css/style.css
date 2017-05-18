@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/* Base
+------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4c4c4c;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #f5f5f5; }
+
+a {
+  color: #cccc33;
+  text-decoration: none; }
+  a:visited {
+    color: #a3a329; }
+  a:hover {
+    color: #a3a329; }
+  a:active {
+    color: #d1d147; }
+
+/* Align
+------------------------------------------------------------*/
+.text-center {
+  text-align: center; }
+
+/* Header
+------------------------------------------------------------*/
+header #header_title {
+  background-image: url("../images/header-photo.png");
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 30px; }
+
+/* Contents
+------------------------------------------------------------*/
+main h2 {
+  font-weight: bold;
+  color: #4c4c4c;
+  margin-bottom: 30px;
+  font-size: 2.0rem; }
+main .container {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  margin: 10px 20px 30px 20px; }
+main article {
+  margin: 10px 0px;
+  border: 1px solid #666633;
+  background-color: #f7ffef; }
+  main article h4 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 5px;
+    background-color: #cccc33; }
+  main article p {
+    padding: 10px;
+    color: #4c4c4c; }
+
+/* Footer
+------------------------------------------------------------*/
+footer {
+  background-color: #cccc33;
+  padding: 10px 0;
+  text-align: center;
+  color: #FFF; }
+  footer h3 {
+    color: #4c4c4c;
+    margin-bottom: 5px; }
+  footer a {
+    display: inline-block;
+    font-weight: bold;
+    padding: 5px;
+    width: 150px;
+    height: 15px;
+    line-height: 1.0;
+    color: #4c4c4c;
+    background-color: #FFF;
+    border: 1px solid #666633;
+    -moz-border-radius: 4%;
+    -webkit-border-radius: 4%;
+    border-radius: 4%; }
+
+@media (min-width: 768px) {
+  header #header_title {
+    background-image: url("../images/header-photo.png");
+    height: 500px;
+    width: 100%; }
+
+  main .container {
+    -webkit-flex-direction: row;
+    flex-direction: row; }
+  main article {
+    margin: 0 10px;
+    -webkit-flex: 1;
+    flex: 1; }
+
+  a:hover {
+    background-color: #000;
+    color: #FFF; } }
+
+/*# sourceMappingURL=style.css.map */
